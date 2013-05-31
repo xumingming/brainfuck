@@ -6,8 +6,9 @@ Clojure version of [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck)
 
 ```bash
 $ git clone https://github.com/xumingming/brainfuck.git
-$ echo ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>. > helloworld.fb
-$ lein run ./helloworld.fb
+$ cd brainfuck
+$ echo "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>." > helloworld.fb
+$ lein run helloworld.fb
 Hello World!
 ```
 
